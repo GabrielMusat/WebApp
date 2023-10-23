@@ -1,0 +1,353 @@
+<html>
+    <style>
+        @media (min-width: 768px) and (max-width: 1950px) {
+            body {
+            background-color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        img {
+            background-attachment: scroll;
+            float: left;
+            margin-left: -8px;
+            margin-right: -8px;
+            margin-top: -8px;
+            height: 453.8px;
+            position: relative;
+        }
+        h1 {
+            margin-left: 15px;
+            border-width: 4px;
+            position: absolute;
+        }
+        h1.one {
+            background-color: 97 232 239;
+            color: #2c2c2c;
+            text-shadow: 2px 2px 2px;
+            font-size: 280%;
+            position: absolute;
+            margin-left: 6%;
+        }
+        p.a {
+            position: absolute;
+            font-size: 220%;
+            margin-top: 170px;
+            margin-left: 60px;
+            font-style: bold;
+        }
+        p.b {
+            position: absolute;
+            font-size: 220%;
+            margin-top: 200px;
+            margin-left: 60px;
+        }
+        p.c {
+            position: absolute;
+            font-size: 220%;
+            margin-top: 270px;
+            margin-left: 55px;
+            font-style: bold;
+        }
+        p.d {
+            position: absolute;
+            font-size: 220%;
+            margin-top: 200px;
+            margin-left: 175px;
+        }
+        p.e {
+            position: absolute;
+            font-size: 220%;
+            margin-top: 232px;
+            margin-left: 175px;
+        }
+        p.f {
+            position: absolute;
+            font-size: 220%;
+            margin-top: 220px;
+            margin-left: 215px;
+            font-style: bold;
+        }
+
+        h2.Part1 {
+            color: rgb(31, 31, 241);
+            margin-left: 550px;
+            margin-top: 300px;
+            font-size: 50px;
+            position: absolute;
+        }
+        h2.Part2 {
+            color: rgb(31, 31, 241);
+            font-size: 50px;
+            position: absolute;
+            margin-top: 350px;
+            margin-left: 400px;
+        }
+        img.main {
+            height: 90px;
+            margin-top: -25px;
+            margin-left: 365px;
+
+        }
+        p.intro {
+            float: left;
+            left: 300px;
+            bottom: 125;
+            font-style: italic;
+            font-size: 20px;
+            width: 400px;
+            border-top: 2px solid #61e8ef;
+            border-bottom: 2px solid #61e8ef;
+            padding: 10px;
+            position: relative;
+
+        }
+        p.AI_example_title {
+            width: 240px;
+            position: relative;
+        }
+        p.info1 {
+            width: 650px;
+            position: relative;
+            font-size: 20px;
+            bottom: 400px;
+            left: 800px;
+
+        }
+        img.AI_hand {
+            width: 250px;
+            height: 250px;
+            position: relative;
+            top: 150px;
+            right: 950px;
+
+
+
+        }
+        ul.AI_examples {
+            width: 400px;
+            margin: 10px;
+            list-style-position: outside;
+        }
+        div.AI_example_table {
+            position: relative;
+            bottom: 125px;
+            left: 300px;
+            font-size: 20px;
+        }
+        h2.Title_2 {
+            font-size: 50;
+            text-align: center;
+            color: rgb(31, 31, 241);
+            position: relative;
+            bottom: 200px;
+
+        }
+        img.Large_Underline_2 {
+            height: 70px;
+            position: relative;
+            bottom: 270px;
+            left: 520px;
+            
+        }
+        h3.Title_2 {
+            font-size: 30px;
+            color: #61e8ef;
+            position: relative;
+            bottom: 360px;
+            left: 930px;
+        }
+        img.Superscript_Underline_1 {
+            height: 80px;
+            position: relative;
+            bottom: 375px;
+            left: 500px;
+        }
+        img.Pros {
+            height: 300px;
+            position: relative;
+        }
+        img.Cons {
+            height: 300px;
+            position: relative;
+        }
+        img.Pros, img.Cons {
+            left: 480px;
+            bottom: 400px;
+        }
+        ul.Pro {
+            text-align: left;
+            width: 400px;
+            
+        }
+        ul.Con {
+            text-align: left;
+            width: 400px;
+            float: right;
+            position: relative;
+            bottom: 478px;
+        }
+        div.green {
+            background-color: #47d23b;
+            height: 650px;
+            width: 750px;
+            position: absolute;
+            top: 1360px;
+            z-index: -1;
+        }
+        div.red {
+            background-color: #e24747;
+            height: 650px;
+            width: 764px;
+            position: absolute;
+            top: 1360px;
+            left: 758px;
+            z-index: -1;
+        }
+        h3.Pros {
+            position: absolute;
+            top: 1350px;
+            left: 300px;
+            color:#61e8ef ;
+            text-shadow: #000000 2px 2px 2px;
+            font-size: 280%;
+        }
+        h3.Cons {
+            position: absolute;
+            top: 1350px;
+            left: 1100px;
+            color:#61e8ef;
+            text-shadow: #000000 2px 2px 2px;
+            font-size: 280%;
+        }
+        img.Small_Underline_1 {
+            height: 35px;
+            position: absolute;
+            top: 1460px;
+            left: 1060px;
+        }
+        img.Small_Underline_2 {
+            height: 35px;
+            position: absolute;
+            top: 1460px;
+            left: 260px;
+        }
+        div.bottom_fade {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
+            height: 200px;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+
+        }
+    }
+    </style>
+    <head>
+        <title>AI & Cybersecurity</title>
+    </head>
+    <body>
+        <div class="Intro">
+            {% load static %}
+
+            <img src= "{% static 'New_WII.png' %}" alt="top" />
+            <h1 class="one">
+                A.I. and Cybersecurity
+            </h1>
+            <div class="links">
+                <p class="a">Quiz</p>
+                <p class="b">____</p>
+                <p class="c">About</p>
+                <p class="d">|</p>
+                <p class="e">|</p>
+                <p class="f">Resources</p>
+            </div>
+        </div>
+        <h2 class="Part1">What is</h2>
+        <h2 class="Part2">Artificial Intelligence?</h2>
+        <img class="Main" src="{% static 'Large_Underline.png' %}"/>
+        <img class="AI_hand" src="{% static 'AI_hand.png' %}"/>
+        
+        <p class="intro">"The theory and development of computer systems able to perform tasks normally requiring human intelligence" ~ Sciencedirect</p>
+        <div class="AI_example_table">
+            <p class="ai_example_title">Examples include:</p>
+            <ul class="AI_examples">
+                <li>Speech recognition</li>
+                <li>Decision-making</li>
+                <li>Language translation</li>
+            </ul>
+        </div>
+        <p class="info1">
+            In this case, we'll be looking into "Deep learning models". A very common example of a deep learning model+
+            would be AI chatbots, such as ChatGPT. These deep learning models can, and do help companies to protect their users'
+            data. Currently, one of the best examples of one of these companies would be IBM, which uses AI to: 
+            <i><em>"accelerate threat detection expediting responses, and protecting user identiy and datasets"</em></i>.<sup>1</sup> Later on,
+            we will look at more of these examples in detail. However, to get back to the point, these chatbots aren't only positive,
+            because hackers can also profit off of AI, using various tactics which we will also discuss later, to obtain code
+            which is way more efficient in hacking into companies an databses.
+        </p>
+        <div class="Title_2">
+            <h2 class="Title_2"><centre>Pro's and Con's</centre></h2>
+            <h3 class="Title_2">(of AI's use in cybersecurity)</h3>
+            <img class="Large_Underline_2" src="{% static 'Large_Underline.png' %}">
+            <img class="Superscript_Underline_1" src="{% static 'Superscript_Underline.png' %}">
+
+        </div>
+        <div class="Pros_and_Cons">
+            <div class="green"></div>
+            <div class="Pros">
+                <h3 class="Pros">Pro's</h3>
+                <img class="small_underline_1" src="{% static 'Small_Underline.png' %}"/>
+                <ul class="Pro">
+                    <li>AI is mainly only limited by the speed of it's code, allowing it to analyze 1000's of lines 
+                        of code and find errors in only a few seconds, while it would take a human days.</li>
+                        <li>Because AI is so fast at analyzing, it can also give tips really quickly on how to fix a problem,
+                            or even edit the code itself to make it more secure. One way the AI does this is trying to hack in mock
+                            servers with the companies security protocols, and document on how it managed, 
+                            as well as possible solutions. However currently companies like Microsoft still use humans for
+                            this job.
+                        </li>
+                    <li>AI has the capability to learn and use previous mistakes and to learn from them and find patterns. 
+                        The AI can think on it's own, and is able t do more thatn just following instructions. 
+                        This makes security easier for companies, because they do not have to code every scenario and 
+                        counter</li>
+                    <li>Because AI is adaptable, it is also able to take action much faster compared to pure code,
+                        as it doesn't have to ask for permission from certain rules, but rather can take action on it's own.
+                    </li>
+                    <li>One last way on how companies can use AI, is to create an AI, and fake servers with their security
+                        protocols, and have the AI try to hack into the servers, and document on how it managed, as well as
+                        possible solutions.
+                    </li>
+                </ul>
+                <img class="Pros" src="{% static 'Pros_Tree.png' %}">
+                
+
+            </div>
+            <div class="Cons">
+                <h3 class="Cons">Con's</h3>
+                <img class="Small_Underline_2" src="{% static 'Small_Underline.png' %}"/>
+                <ul class="Con">
+                    <li>Hackers can use AI to obtain malicious code in a few ways, one of them being: Adverserial
+                        attacks on AI systems, meaning writing inputs designed specifically to force the AI to generate
+                        malicious code against it's own policy.
+                    </li>
+                    <li>Another way would be: Data poisoning. Which is where you give a AI biased or wrong datasets
+                        in order to get biased answers or code which isn't true, and otherwise would be unobtainable.
+                    </li>
+                    <li>Hackers can create their own AI which does the opposite of what companies use it for.
+                        It creates scenarios, which the hacker tries to hack into, and give the hacker tips, however a
+                        lot of expertise is needed
+                    </li>
+                    <li>Finally, another way AI can be manipualted is for hackers to hack into the actual AI of a company, and
+                        set up so-called "back doors", as an entrance if they get kicked out. They can then use the information
+                        the AI gathered for the company in terms of security weaknesses and use it against the company. This is why
+                        most companies still use people to hack into servers in a controlled manner, and not an AI.
+                    </li>
+                </ul>
+                <img class="Cons" src="{% static 'Cons_Tree.png' %}">
+                <div class="red"></div>
+            </div>
+
+
+        </div>
+        <div class="bottom_fade"></div>
+    </body>
+</html>
